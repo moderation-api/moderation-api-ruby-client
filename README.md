@@ -65,21 +65,19 @@ class WebhooksController < ApplicationController
     sig_header = request.env['HTTP_MODAPI_SIGNATURE']
 
     begin
-      event = ModerationAPI::Webhook.construct_event(
+      event_data = ModerationAPI::Webhook.construct_event(
         payload, sig_header, ENV['MODAPI_WEBHOOK_SECRET']
       )
     rescue JSON::ParserError => e
-      status 400
-      return
-    rescue ModerationAPI::SignatureVerificationError => e
-      status 400
-      return
+      return render plain: "Invalid payload: #{e}", status: 400
+    rescue ModerationAPI::Webhook::SignatureVerificationError => e
+      return render plain: "Invalid signature: #{e}", status: 400
     end
 
     # Handle the event
-    puts "Webhook received! #{event.type}"
+    puts "Webhook received! #{event_data[:type]}"
 
-    status 200
+    head :ok
   end
 end
 ```
