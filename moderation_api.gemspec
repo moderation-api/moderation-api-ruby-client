@@ -26,7 +26,11 @@ Gem::Specification.new do |s|
   s.description = "Automatically moderate your content with Moderation API"
   s.license     = "MIT"
   s.required_ruby_version = ">= 3.0"
-  s.metadata    = {"tags": ["moderation", "detect", "pii", "content_moderation", "filtering", "api", "automation", "content", "toxic", "nsfw", "analysis", "nlp", "text_analysis", "sentiment", "spam", "image_moderation", "text_moderation"]}
+  s.metadata    = {
+    "homepage_uri" => "https://moderationapi.com",
+    "source_code_uri" => "https://github.com/yourusername/moderation_api",
+    "documentation_uri" => "https://moderationapi.com/docs"
+  }
 
   s.add_runtime_dependency 'faraday', '>= 1.0.1', '< 3.0'
   s.add_runtime_dependency 'faraday-multipart'
