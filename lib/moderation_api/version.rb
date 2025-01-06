@@ -11,5 +11,5 @@ Generator version: 7.10.0
 =end
 
 module ModerationAPI
-  VERSION = '1.2.0'
+  VERSION = '1.2.1'
 end

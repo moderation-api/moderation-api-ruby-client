@@ -28,8 +28,8 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 3.0"
   s.metadata    = {
     "homepage_uri" => "https://moderationapi.com",
-    "source_code_uri" => "https://github.com/yourusername/moderation_api",
-    "documentation_uri" => "https://moderationapi.com/docs"
+    "source_code_uri" => "https://github.com/moderation-api/moderation-api-ruby-client",
+    "documentation_uri" => "https://docs.moderationapi.com"
   }
 
   s.add_runtime_dependency 'faraday', '>= 1.0.1', '< 3.0'
