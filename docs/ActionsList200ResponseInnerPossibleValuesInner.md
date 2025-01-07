@@ -1,4 +1,4 @@
-# ModerationAPI::ActionsList200ResponseInnerPossibleValuesInner
+# ModerationApi::ActionsList200ResponseInnerPossibleValuesInner
 
 ## Properties
 
@@ -11,7 +11,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ActionsList200ResponseInnerPossibleValuesInner.new(
+instance = ModerationApi::ActionsList200ResponseInnerPossibleValuesInner.new(
   value: null
 )
 ```

@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationVideo200Response
+# ModerationApi::ModerationVideo200Response
 
 ## Properties
 
@@ -14,7 +14,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationVideo200Response.new(
+instance = ModerationApi::ModerationVideo200Response.new(
   status: null,
   request: null,
   flagged: null,

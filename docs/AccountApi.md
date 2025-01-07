@@ -1,4 +1,4 @@
-# ModerationAPI::AccountApi
+# ModerationApi::AccountApi
 
 All URIs are relative to *https://moderationapi.com/api/v1*
 
@@ -21,18 +21,18 @@ Get account details
 require 'time'
 require 'moderation_api'
 # setup authorization
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   # Configure Bearer authorization: Authorization
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = ModerationAPI::AccountApi.new
+api_instance = ModerationApi::AccountApi.new
 
 begin
   # Get account details
   result = api_instance.account_get
   p result
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling AccountApi->account_get: #{e}"
 end
 ```
@@ -50,7 +50,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <AccountGet200Response>
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling AccountApi->account_get_with_http_info: #{e}"
 end
 ```

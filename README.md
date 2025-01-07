@@ -36,16 +36,16 @@ available in your [Project Dashboard](https://moderationapi.com/app/projects). C
 ```ruby
 require 'moderation_api'
 
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   config.access_token = 'proj_...'
 end
 
-api = ModerationAPI::ModerateApi.new
+api = ModerationApi::ModerateApi.new
 
 begin
   analysis = api.moderation_text({value: 'Hello world!'})
   puts analysis.flagged
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error: #{e}"
 end
 ```
@@ -65,12 +65,12 @@ class WebhooksController < ApplicationController
     sig_header = request.env['HTTP_MODAPI_SIGNATURE']
 
     begin
-      event_data = ModerationAPI::Webhook.construct_event(
+      event_data = ModerationApi::Webhook.construct_event(
         payload, sig_header, ENV['MODAPI_WEBHOOK_SECRET']
       )
     rescue JSON::ParserError => e
       return render plain: "Invalid payload: #{e}", status: 400
-    rescue ModerationAPI::Webhook::SignatureVerificationError => e
+    rescue ModerationApi::Webhook::SignatureVerificationError => e
       return render plain: "Invalid signature: #{e}", status: 400
     end
 

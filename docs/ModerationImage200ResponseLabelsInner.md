@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationImage200ResponseLabelsInner
+# ModerationApi::ModerationImage200ResponseLabelsInner
 
 ## Properties
 
@@ -12,7 +12,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationImage200ResponseLabelsInner.new(
+instance = ModerationApi::ModerationImage200ResponseLabelsInner.new(
   label: null,
   score: null
 )

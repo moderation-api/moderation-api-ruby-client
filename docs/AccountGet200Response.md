@@ -1,4 +1,4 @@
-# ModerationAPI::AccountGet200Response
+# ModerationApi::AccountGet200Response
 
 ## Properties
 
@@ -15,7 +15,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::AccountGet200Response.new(
+instance = ModerationApi::AccountGet200Response.new(
   id: null,
   paid_plan_name: null,
   text_api_quota: null,

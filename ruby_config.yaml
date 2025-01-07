@@ -1,6 +1,6 @@
 # Basic gem information
 gemName: moderation_api
-gemVersion: 1.2.1
+gemVersion: 1.2.2
 moduleName: ModerationApi
 gemAuthor: Moderation API
 gemAuthorEmail: info@moderationapi.com

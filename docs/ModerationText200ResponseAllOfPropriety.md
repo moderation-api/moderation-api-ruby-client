@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfPropriety
+# ModerationApi::ModerationText200ResponseAllOfPropriety
 
 ## Properties
 
@@ -15,7 +15,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfPropriety.new(
+instance = ModerationApi::ModerationText200ResponseAllOfPropriety.new(
   label: null,
   score: null,
   error: null,

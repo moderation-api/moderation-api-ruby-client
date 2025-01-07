@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfWordlistsInner
+# ModerationApi::ModerationText200ResponseAllOfWordlistsInner
 
 ## Properties
 
@@ -20,7 +20,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfWordlistsInner.new(
+instance = ModerationApi::ModerationText200ResponseAllOfWordlistsInner.new(
   mode: null,
   flagged: null,
   name: null,

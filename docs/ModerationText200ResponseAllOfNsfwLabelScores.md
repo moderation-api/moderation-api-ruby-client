@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfNsfwLabelScores
+# ModerationApi::ModerationText200ResponseAllOfNsfwLabelScores
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfNsfwLabelScores.new(
+instance = ModerationApi::ModerationText200ResponseAllOfNsfwLabelScores.new(
   sensitive: null,
   unsafe: null,
   neutral: null

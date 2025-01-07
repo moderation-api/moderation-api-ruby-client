@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationObjectRequestValueDataValue
+# ModerationApi::ModerationObjectRequestValueDataValue
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationObjectRequestValueDataValue.new(
+instance = ModerationApi::ModerationObjectRequestValueDataValue.new(
   type: null,
   value: null,
   model_ids: null

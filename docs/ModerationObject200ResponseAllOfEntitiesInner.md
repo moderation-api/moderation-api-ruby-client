@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationObject200ResponseAllOfEntitiesInner
+# ModerationApi::ModerationObject200ResponseAllOfEntitiesInner
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationObject200ResponseAllOfEntitiesInner.new(
+instance = ModerationApi::ModerationObject200ResponseAllOfEntitiesInner.new(
   model: null,
   matches: null,
   score: null

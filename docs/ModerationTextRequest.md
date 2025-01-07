@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationTextRequest
+# ModerationApi::ModerationTextRequest
 
 ## Properties
 
@@ -16,7 +16,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationTextRequest.new(
+instance = ModerationApi::ModerationTextRequest.new(
   value: null,
   content_id: null,
   do_not_store: null,

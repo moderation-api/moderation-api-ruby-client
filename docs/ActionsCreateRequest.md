@@ -1,4 +1,4 @@
-# ModerationAPI::ActionsCreateRequest
+# ModerationApi::ActionsCreateRequest
 
 ## Properties
 
@@ -20,7 +20,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ActionsCreateRequest.new(
+instance = ModerationApi::ActionsCreateRequest.new(
   name: null,
   key: null,
   description: null,

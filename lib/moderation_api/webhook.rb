@@ -3,7 +3,7 @@
 require 'json'
 require 'openssl'
 
-module ModerationAPI
+module ModerationApi
   class Webhook
     class SignatureVerificationError < StandardError; end
 

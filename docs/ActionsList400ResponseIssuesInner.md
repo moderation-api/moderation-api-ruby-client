@@ -1,4 +1,4 @@
-# ModerationAPI::ActionsList400ResponseIssuesInner
+# ModerationApi::ActionsList400ResponseIssuesInner
 
 ## Properties
 
@@ -11,7 +11,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ActionsList400ResponseIssuesInner.new(
+instance = ModerationApi::ActionsList400ResponseIssuesInner.new(
   message: null
 )
 ```

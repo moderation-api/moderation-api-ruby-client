@@ -1,4 +1,4 @@
-# ModerationAPI::ActionsExecuteDeprecatedRequest
+# ModerationApi::ActionsExecuteDeprecatedRequest
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ActionsExecuteDeprecatedRequest.new(
+instance = ModerationApi::ActionsExecuteDeprecatedRequest.new(
   content_ids: null,
   queue_id: null,
   value: null

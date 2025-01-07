@@ -1,4 +1,4 @@
-# ModerationAPI::ActionsExecute200Response
+# ModerationApi::ActionsExecute200Response
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ActionsExecute200Response.new(
+instance = ModerationApi::ActionsExecute200Response.new(
   success: null,
   action_id: null,
   ids: null

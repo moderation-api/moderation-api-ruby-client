@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfProprietyLabelScores
+# ModerationApi::ModerationText200ResponseAllOfProprietyLabelScores
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfProprietyLabelScores.new(
+instance = ModerationApi::ModerationText200ResponseAllOfProprietyLabelScores.new(
   flirtation: null,
   sexually_explicit: null,
   neutral: null

@@ -1,4 +1,4 @@
-# ModerationAPI::ActionsCreateRequestWebhooksInner
+# ModerationApi::ActionsCreateRequestWebhooksInner
 
 ## Properties
 
@@ -14,7 +14,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ActionsCreateRequestWebhooksInner.new(
+instance = ModerationApi::ActionsCreateRequestWebhooksInner.new(
   name: null,
   url: null,
   description: null,

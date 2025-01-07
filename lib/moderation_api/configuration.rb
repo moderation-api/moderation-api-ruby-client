@@ -10,7 +10,7 @@ Generator version: 7.10.0
 
 =end
 
-module ModerationAPI
+module ModerationApi
   class Configuration
     # Defines url scheme
     attr_accessor :scheme

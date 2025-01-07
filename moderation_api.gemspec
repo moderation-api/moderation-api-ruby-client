@@ -17,7 +17,7 @@ require "moderation_api/version"
 
 Gem::Specification.new do |s|
   s.name        = "moderation_api"
-  s.version     = ModerationAPI::VERSION
+  s.version     = ModerationApi::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Moderation API"]
   s.email       = ["info@moderationapi.com"]

@@ -1,4 +1,4 @@
-# ModerationAPI::AccountGet200ResponseCurrentProject
+# ModerationApi::AccountGet200ResponseCurrentProject
 
 ## Properties
 
@@ -12,7 +12,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::AccountGet200ResponseCurrentProject.new(
+instance = ModerationApi::AccountGet200ResponseCurrentProject.new(
   id: null,
   name: null
 )

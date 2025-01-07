@@ -12,7 +12,7 @@ Generator version: 7.10.0
 
 require 'cgi'
 
-module ModerationAPI
+module ModerationApi
   class AccountApi
     attr_accessor :api_client
 

@@ -1,4 +1,4 @@
-# ModerationAPI::ModerateApi
+# ModerationApi::ModerateApi
 
 All URIs are relative to *https://moderationapi.com/api/v1*
 
@@ -25,19 +25,19 @@ Analyze audio with your Moderation API project
 require 'time'
 require 'moderation_api'
 # setup authorization
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   # Configure Bearer authorization: Authorization
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = ModerationAPI::ModerateApi.new
-moderation_audio_request = ModerationAPI::ModerationAudioRequest.new({url: 'url_example'}) # ModerationAudioRequest | 
+api_instance = ModerationApi::ModerateApi.new
+moderation_audio_request = ModerationApi::ModerationAudioRequest.new({url: 'url_example'}) # ModerationAudioRequest | 
 
 begin
   # Analyze audio
   result = api_instance.moderation_audio(moderation_audio_request)
   p result
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_audio: #{e}"
 end
 ```
@@ -55,7 +55,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <ModerationVideo200Response>
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_audio_with_http_info: #{e}"
 end
 ```
@@ -94,19 +94,19 @@ Analyze image with your Moderation API project
 require 'time'
 require 'moderation_api'
 # setup authorization
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   # Configure Bearer authorization: Authorization
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = ModerationAPI::ModerateApi.new
-moderation_image_request = ModerationAPI::ModerationImageRequest.new({url: 'url_example'}) # ModerationImageRequest | 
+api_instance = ModerationApi::ModerateApi.new
+moderation_image_request = ModerationApi::ModerationImageRequest.new({url: 'url_example'}) # ModerationImageRequest | 
 
 begin
   # Analyze image
   result = api_instance.moderation_image(moderation_image_request)
   p result
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_image: #{e}"
 end
 ```
@@ -124,7 +124,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <ModerationImage200Response>
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_image_with_http_info: #{e}"
 end
 ```
@@ -163,19 +163,19 @@ Analyze an object with multiple fields including text, images, video, audio. Use
 require 'time'
 require 'moderation_api'
 # setup authorization
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   # Configure Bearer authorization: Authorization
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = ModerationAPI::ModerateApi.new
-moderation_object_request = ModerationAPI::ModerationObjectRequest.new({value: ModerationAPI::ModerationObjectRequestValue.new({type: 'profile', data: { key: ModerationAPI::ModerationObjectRequestValueDataValue.new({type: 'text', value: 'value_example'})}})}) # ModerationObjectRequest | 
+api_instance = ModerationApi::ModerateApi.new
+moderation_object_request = ModerationApi::ModerationObjectRequest.new({value: ModerationApi::ModerationObjectRequestValue.new({type: 'profile', data: { key: ModerationApi::ModerationObjectRequestValueDataValue.new({type: 'text', value: 'value_example'})}})}) # ModerationObjectRequest | 
 
 begin
   # Analyze object.
   result = api_instance.moderation_object(moderation_object_request)
   p result
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_object: #{e}"
 end
 ```
@@ -193,7 +193,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <ModerationObject200Response>
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_object_with_http_info: #{e}"
 end
 ```
@@ -232,19 +232,19 @@ Analyze text with your Moderation API project.
 require 'time'
 require 'moderation_api'
 # setup authorization
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   # Configure Bearer authorization: Authorization
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = ModerationAPI::ModerateApi.new
-moderation_text_request = ModerationAPI::ModerationTextRequest.new({value: 'value_example'}) # ModerationTextRequest | 
+api_instance = ModerationApi::ModerateApi.new
+moderation_text_request = ModerationApi::ModerationTextRequest.new({value: 'value_example'}) # ModerationTextRequest | 
 
 begin
   # Analyze text.
   result = api_instance.moderation_text(moderation_text_request)
   p result
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_text: #{e}"
 end
 ```
@@ -262,7 +262,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <ModerationText200Response>
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_text_with_http_info: #{e}"
 end
 ```
@@ -301,19 +301,19 @@ Analyze video with your Moderation API project
 require 'time'
 require 'moderation_api'
 # setup authorization
-ModerationAPI.configure do |config|
+ModerationApi.configure do |config|
   # Configure Bearer authorization: Authorization
   config.access_token = 'YOUR_BEARER_TOKEN'
 end
 
-api_instance = ModerationAPI::ModerateApi.new
-moderation_video_request = ModerationAPI::ModerationVideoRequest.new({url: 'url_example'}) # ModerationVideoRequest | 
+api_instance = ModerationApi::ModerateApi.new
+moderation_video_request = ModerationApi::ModerationVideoRequest.new({url: 'url_example'}) # ModerationVideoRequest | 
 
 begin
   # Analyze video
   result = api_instance.moderation_video(moderation_video_request)
   p result
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_video: #{e}"
 end
 ```
@@ -331,7 +331,7 @@ begin
   p status_code # => 2xx
   p headers # => { ... }
   p data # => <ModerationVideo200Response>
-rescue ModerationAPI::ApiError => e
+rescue ModerationApi::ApiError => e
   puts "Error when calling ModerateApi->moderation_video_with_http_info: #{e}"
 end
 ```

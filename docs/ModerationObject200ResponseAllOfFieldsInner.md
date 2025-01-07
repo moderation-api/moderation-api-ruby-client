@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationObject200ResponseAllOfFieldsInner
+# ModerationApi::ModerationObject200ResponseAllOfFieldsInner
 
 ## Properties
 
@@ -13,7 +13,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationObject200ResponseAllOfFieldsInner.new(
+instance = ModerationApi::ModerationObject200ResponseAllOfFieldsInner.new(
   key: null,
   flagged: null,
   flagged_by: null

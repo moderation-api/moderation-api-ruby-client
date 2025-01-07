@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationAudioRequest
+# ModerationApi::ModerationAudioRequest
 
 ## Properties
 
@@ -16,7 +16,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationAudioRequest.new(
+instance = ModerationApi::ModerationAudioRequest.new(
   url: null,
   content_id: null,
   do_not_store: null,

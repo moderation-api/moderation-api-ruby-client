@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfQualityLabelScores
+# ModerationApi::ModerationText200ResponseAllOfQualityLabelScores
 
 ## Properties
 
@@ -14,7 +14,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfQualityLabelScores.new(
+instance = ModerationApi::ModerationText200ResponseAllOfQualityLabelScores.new(
   unsubstantial: null,
   incoherent: null,
   spam: null,

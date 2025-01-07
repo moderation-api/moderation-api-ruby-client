@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfRequest
+# ModerationApi::ModerationText200ResponseAllOfRequest
 
 ## Properties
 
@@ -12,7 +12,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfRequest.new(
+instance = ModerationApi::ModerationText200ResponseAllOfRequest.new(
   timestamp: null,
   quota_usage: null
 )

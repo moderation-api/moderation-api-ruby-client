@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfUsername
+# ModerationApi::ModerationText200ResponseAllOfUsername
 
 ## Properties
 
@@ -16,7 +16,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfUsername.new(
+instance = ModerationApi::ModerationText200ResponseAllOfUsername.new(
   mode: null,
   found: null,
   matches: null,

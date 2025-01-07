@@ -10,6 +10,6 @@ Generator version: 7.10.0
 
 =end
 
-module ModerationAPI
-  VERSION = '1.2.1'
+module ModerationApi
+  VERSION = '1.2.2'
 end

@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfToxicity
+# ModerationApi::ModerationText200ResponseAllOfToxicity
 
 ## Properties
 
@@ -15,7 +15,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfToxicity.new(
+instance = ModerationApi::ModerationText200ResponseAllOfToxicity.new(
   label_scores: null,
   label: null,
   score: null,

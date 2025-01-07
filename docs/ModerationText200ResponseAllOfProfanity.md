@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfProfanity
+# ModerationApi::ModerationText200ResponseAllOfProfanity
 
 ## Properties
 
@@ -16,7 +16,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfProfanity.new(
+instance = ModerationApi::ModerationText200ResponseAllOfProfanity.new(
   mode: null,
   found: null,
   matches: null,

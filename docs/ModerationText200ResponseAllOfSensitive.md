@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationText200ResponseAllOfSensitive
+# ModerationApi::ModerationText200ResponseAllOfSensitive
 
 ## Properties
 
@@ -16,7 +16,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationText200ResponseAllOfSensitive.new(
+instance = ModerationApi::ModerationText200ResponseAllOfSensitive.new(
   mode: null,
   found: null,
   matches: null,

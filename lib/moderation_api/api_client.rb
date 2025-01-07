@@ -20,7 +20,7 @@ require 'faraday/multipart' if Gem::Version.new(Faraday::VERSION) >= Gem::Versio
 require 'marcel'
 
 
-module ModerationAPI
+module ModerationApi
   class ApiClient
     # The Configuration object holding settings to be used in the API client.
     attr_accessor :config
@@ -323,7 +323,7 @@ module ModerationAPI
         end
       else
         # models (e.g. Pet) or oneOf
-        klass = ModerationAPI.const_get(return_type)
+        klass = ModerationApi.const_get(return_type)
         klass.respond_to?(:openapi_one_of) ? klass.build(data) : klass.build_from_hash(data)
       end
     end

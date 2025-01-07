@@ -1,4 +1,4 @@
-# ModerationAPI::ModerationImageRequest
+# ModerationApi::ModerationImageRequest
 
 ## Properties
 
@@ -16,7 +16,7 @@
 ```ruby
 require 'moderation_api'
 
-instance = ModerationAPI::ModerationImageRequest.new(
+instance = ModerationApi::ModerationImageRequest.new(
   url: null,
   content_id: null,
   do_not_store: null,

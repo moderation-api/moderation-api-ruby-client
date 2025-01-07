@@ -10,7 +10,7 @@ Generator version: 7.10.0
 
 =end
 
-module ModerationAPI
+module ModerationApi
   class ApiError < StandardError
     attr_reader :code, :response_headers, :response_body
 
