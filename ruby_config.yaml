@@ -1,0 +1,30 @@
+# Basic gem information
+gemName: moderation_api
+gemVersion: 1.2.1
+moduleName: ModerationApi
+gemAuthor: Moderation API
+gemAuthorEmail: info@moderationapi.com
+gemDescription: Automatically moderate your content with Moderation API
+gemSummary: A Ruby SDK for the Moderation API - content moderation, PII detection, and text analysis
+gemHomepage: https://moderationapi.com
+gemLicense: MIT
+
+# HTTP client library
+library: faraday
+
+# Ruby version requirement
+gemRequiredRubyVersion: ">= 3.0"
+
+# Additional settings
+sortParamsByRequiredFlag: true
+sortModelPropertiesByRequiredFlag: true
+hideGenerationTimestamp: true
+useAutoload: true
+
+# API behavior settings
+ensureUniqueParams: true
+enumUnknownDefaultCase: true
+legacyDiscriminatorBehavior: false
+
+# Metadata as a string
+gemMetadata: '{"tags": ["moderation", "detect", "pii", "content_moderation", "filtering", "api", "automation", "content", "toxic", "nsfw", "analysis", "nlp", "text_analysis", "sentiment", "spam", "image_moderation", "text_moderation"]}'
